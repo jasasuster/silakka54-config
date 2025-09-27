@@ -93,20 +93,28 @@ QWERTZ Slovenian layout with tap dances and custom shift symbols.
 ## 💻 Installations
 
 1. Fork and clone QMK
-```
+```bash
 git clone https://github.com/<github_username>/qmk_firmware.git
 ```
 2. [Set up your environment](https://docs.qmk.fm/newbs_getting_started)
 
-2. Clone this repo
+3. Download getreuer's modules:
+```bash
+cd /path/to/qmk_firmware
+mkdir -p modules
+git submodule add https://github.com/getreuer/qmk-modules.git modules/getreuer
+git submodule update --init --recursive
 ```
+
+4. Clone this repo
+```bash
 git clone https://github.com/jasasuster/silakka54-config.git
 ```
 
-4. Copy `config.h` into `qmk_firmware/keyboards/silakka54`
-5. Copy `keymap.c`, `keymap.json` and `rules.mk` into `qmk_firmware/keyboards/silakka54/<github_username>`
+5. Copy `config.h` into `qmk_firmware/keyboards/silakka54`
+6. Copy `keymap.c`, `keymap.json` and `rules.mk` into `qmk_firmware/keyboards/silakka54/<github_username>`
 
-6. Compile and flash
-```
+7. Compile and flash
+```bash
 qmk compile -kb silakka54 -km <github_username>
 ```
