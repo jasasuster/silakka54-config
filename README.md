@@ -7,14 +7,6 @@ It adds smarter shift keys, tap dances, combos, and macros to make typing symbol
 
 ## Features
 
-- Custom shift keys
-- Tap-dances:
-  - Shift -> Caps Lock
-  - LGui -> Alt
-- Combos:
-
-- Macros for character pairs such as parenthesis, quotes, brackets and braces
-
 🔤 Custom Shift Keys
 
 Redefines shift behavior for certain symbols to match the Slovenian layout and make typing common characters easier:
