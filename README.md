@@ -5,9 +5,9 @@ It adds smarter shift keys, tap dances, combos, and macros to make typing symbol
 
 ![Keyboard](silakka54.jpg)
 
-## Features
+## ✨ Features
 
-🔤 Custom Shift Keys
+### Custom Shift Keys
 
 Redefines shift behavior for certain symbols to match the Slovenian layout and make typing common characters easier:
 
@@ -35,17 +35,17 @@ Redefines shift behavior for certain symbols to match the Slovenian layout and m
 
 - `` ` `` → `~`
 
-🎭 Tap Dance Keys
+### Tap Dance Keys
 
 * Left Shift / Caps Lock → Tap once for Shift, tap twice for Caps Lock.
 
 * LGUI / LALT → Tap once for GUI (Super/Command/Windows key), tap twice for Alt.
 
-🤝 Combos
+### Combos
 
 * MO(1) + MO(2) → MO(3) (quick access to the fourth layer when both lower/raise layers are held).
 
-🪄 Macros
+### Macros
 
 * Braces Macro → Types paired characters and places the cursor in between:
 
@@ -90,7 +90,7 @@ QWERTZ Slovenian layout with tap dances and custom shift symbols.
 
 ![Keymap](silakka54_dark.png)
 
-## Installations
+## 💻 Installations
 
 1. Fork and clone QMK
 ```
